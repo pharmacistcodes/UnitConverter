@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background: #F4F4F4;
+}
+
+h1 {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 33px;
+
+    font-family: 'Inter';
+    font-style: Extra Bold;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    width: 550px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+
+    background: #6943FF;
+}
+
+
+
+#inputbox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 110px;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    
+    background-color: #6943FF;
+    font-size: 50px;
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ConvertBtn {
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 220px;
+
+    background: #FFFFFF;
+    /* shadow/sm */
+
+    box-shadow: 0px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+}
+
+.Length {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 321px;
+    
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+.Volume {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 453px;
+    
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+.Mass {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 585px;
+    
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 585px;
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+h3 {
+    position: absolute;
+    width: 346px;
+    height: 59px;
+    left: 77px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #5A537B;
+}
+
+#length {
+    
+    width: 500px;
+    left: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#volume{
+    width: 500px;
+    left: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#mass{
+    width: 500px;
+    left: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
