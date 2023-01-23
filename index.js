@@ -11,16 +11,13 @@ let conv = document.getElementById("ConvertBtn")
 
 
 function convert() {
-    let number = document.getElementById("inputbox").value
-    let meter = number * 3.281
-    let feet = number / 3.281
-    length.innerHTML = `${number} meters = ${meter} feet | ${number} feet = ${feet.toFixed(3)} meters`
+    let input = document.getElementById("inputbox").value
+    let meter = input * 3.281
+    length.innerHTML = `${input} meters = ${meter.toFixed(3)} feet | ${input} feet = ${(1/meter).toFixed(3)} meters`
      
-    let liter = number * 0.264
-    let gallon = number / 0.264
-    volume.innerHTML = `${number} liters = ${liter} gallon | ${number} gallon = ${gallon.toFixed(3)} liters`
+    let liter = input * 0.264
+    volume.innerHTML = `${input} liters = ${liter.toFixed(3)} gallon | ${input} gallon = ${(1/liter).toFixed(3)} liters`
     
-    let kilogram = number * 2.204
-    let pound = number / 2.204
-    mass.innerHTML = `${number} kilos = ${meter} pounds | ${number} pounds = ${feet.toFixed(3)} kilos`
+    let kilogram = input * 2.204
+    mass.innerHTML = `${input} kilos = ${kilogram.toFixed(3)} pounds | ${input} pounds = ${(1/kilogram).toFixed(3)} kilos`
 }
