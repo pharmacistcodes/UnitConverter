@@ -12,8 +12,6 @@ header {
 }
 
 h1 {
-    width: 448.4px;
-    
     font-family: 'Inter';
     font-style: Extra Bold;
     font-weight: 800;
@@ -73,27 +71,31 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-row-gap: 40px;
+    
+    margin: 30px;
+    background: #FFFFFF;
+    padding: 20px;
     
 }
 
 .Length {
-    margin: 15px;
-    background: #FFFFFF;
+    /* margin: 15px;
+    background: #FFFFFF; */
 }
 
 .Volume {
-    margin: 15px;
-    background: #FFFFFF;
+    /* margin: 15px;
+    background: #FFFFFF; */
 }
 
 .Mass {
-    margin: 15px;
-    background: #FFFFFF;
+    /* margin: 15px;
+    background: #FFFFFF; */
 }
 
 h3 {
     text-align: center;
-    width: 500px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -107,23 +109,22 @@ h3 {
 }
 
 #length {
-    
-    width: 500px;
     text-align: center;
+    /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */
 }
 
 #volume{
-    width: 500px;
     text-align: center;
+    /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */
 }
 
 #mass{
-    width: 500px;
     text-align: center;
+     /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */
 }
