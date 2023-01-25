@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background: #F4F4F4;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: #6943FF;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: Extra Bold;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    /* position: absolute; */
+    /* height: 38px;
+    left: 51px;
+    top: 33px; */
+    
+    /* identical to box height, or 136% */
+
+}
+
+
+#inputbox {
+    box-sizing: border-box;
+    width: 100px;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    
+    background-color: #6943FF;
+    font-size: 50px;
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    /* position: absolute; */
+    /* height: 83px;
+    left: 217px;
+    top: 110px; */
+}
+
+#ConvertBtn {
+    width: 100px;;
+    background: #FFFFFF;
+    box-shadow: 0px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    margin-bottom: 25px;
+    padding: 5px;
+    
+    /* position: absolute; */
+    /* height: 42px;
+    left: 217px;
+    top: 220px; */
+    /* shadow/sm */
+}
+
+.Output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 40px;
+    
+    margin: 20px;
+    background: #F4F4F4;
+    text-align: center;
+}
+
+.Measure {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+        /* padding: 25px 500px; */
+}
+
+.Length {
+    /* margin: 15px; */
+    /* background: #FFFFFF; */
+}
+
+.Volume {
+    /* margin: 15px;*/
+    /* background: #FFFFFF; */
+}
+
+.Mass {
+    /* margin: 15px;
+    background: #FFFFFF; */
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5A537B;
+    
+    /* position: absolute; */
+    /* height: 59px;
+    left: 77px; */
+}
+
+#length {
+    /* text-align: center; */
+    /* width: 500px; */
+    /* left: 25px; */
+    /* margin-top: 50px; */
+}
+
+#volume{
+    /* text-align: center; */
+    /* width: 500px; */
+    /* left: 25px; */
+    /* margin-top: 50px; */
+}
+
+#mass{
+    /* text-align: center; */
+     /* width: 500px; */
+    /* left: 25px; */
+    /* margin-top: 50px; */
+}
