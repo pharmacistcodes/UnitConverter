@@ -73,20 +73,26 @@ h1 {
     align-items: center;
     grid-row-gap: 40px;
     
-    margin: 30px;
+    margin: 20px;
+    background: #F4F4F4;
+    text-align: center;
+}
+
+.Measure {
     background: #FFFFFF;
-    padding: 20px;
-    
+    width: 100%;
+    padding: 10px;
+        /* padding: 25px 500px; */
 }
 
 .Length {
-    /* margin: 15px;
-    background: #FFFFFF; */
+    /* margin: 15px; */
+    /* background: #FFFFFF; */
 }
 
 .Volume {
-    /* margin: 15px;
-    background: #FFFFFF; */
+    /* margin: 15px;*/
+    /* background: #FFFFFF; */
 }
 
 .Mass {
@@ -109,21 +115,21 @@ h3 {
 }
 
 #length {
-    text-align: center;
+    /* text-align: center; */
     /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */
 }
 
 #volume{
-    text-align: center;
+    /* text-align: center; */
     /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */
 }
 
 #mass{
-    text-align: center;
+    /* text-align: center; */
      /* width: 500px; */
     /* left: 25px; */
     /* margin-top: 50px; */

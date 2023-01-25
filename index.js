@@ -4,9 +4,9 @@
 1 kilogram = 2.204 pound
 */
 
-let length = document.getElementById("length")
-let volume = document.getElementById("volume")
-let mass = document.getElementById("mass")
+let length = document.getElementsByClassName("length-text")[0]
+let volume = document.getElementsByClassName("volume-text")[0]
+let mass = document.getElementsByClassName("mass-text")[0]
 let conv = document.getElementById("ConvertBtn")
 
 
